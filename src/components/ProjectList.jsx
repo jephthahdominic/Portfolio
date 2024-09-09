@@ -7,10 +7,10 @@ const ProjectList = () => {
     const [display, setDisplay] = useState(null);
     return (
     <div className='w-full padding h-screen'>
-        <div className='w-full flex justify-center gap-10 mt-10'>
+        <div className='w-full flex justify-center max-sm:flex-col gap-10 mt-10'>
           {projects.map((project)=>(
             <div className='relative cursor-pointer' key={project.url} onMouseOver={()=>setDisplay(project.url)} onMouseOut={()=>setDisplay("")}> 
-              <img src={project.img} alt="project snippet" className='xl:w-[700px] w-[300px] xl:h-[350px] h-[300px] brightness-60'/>
+              <img src={project.img} alt="project snippet" className='xl:w-[700px] w-[300px] max-sm:w-full xl:h-[350px] h-[300px] brightness-60'/>
               <div className={`absolute top-0 h-full w-full bg-black bg-opacity-50 flex flex-col justify-between ${display === project.url ? 'opacity-100 animate-fade-slow':'opacity-0'}`}>
                 <div className='w-full flex justify-end p-2'>
                   <IoLink className='text-white text-3xl'/>
