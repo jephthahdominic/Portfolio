@@ -16,7 +16,7 @@ const Form = () => {
         </div>
         <div className='flex flex-col gap-1'>
             <label htmlFor="message" className='text-white-500 text-xl font-openSans'>Message</label>
-            <textarea name="" id="" className='p-2 bg-chineseBlack h-[100px] rounded-md focus:border-none focus:bg-white outline-none'></textarea>
+            <textarea name="" id="" className='p-2 bg-chineseBlack h-[100px] rounded-md focus:border-none focus:bg-white outline-none resize-none'></textarea>
         </div>
         <div className='w-full flex justify-end mt-2'>
           <Button background='bg-blue-300' color='text-chineseBlack'>
