@@ -29,13 +29,13 @@ const Hero = () => {
                 CONTACT ME
               </URL>
               <div className='flex items-center gap-3'>
-                <a href="">
+                <a href="https://github.com/jephthahdominic" target='_blank'>
                   <IoLogoGithub className='text-white text-3xl'/>
                 </a>
-                <a href="">
+                <a href="https://x.com/JephthahDomini2" target='_blank'>
                   <IoLogoTwitter className='text-white text-3xl'/>
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/jephthah-dominic-6267591a4" target='_blank'>
                   <FaLinkedinIn className='text-white text-3xl'/>
                 </a>
               </div>

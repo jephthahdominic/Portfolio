@@ -4,7 +4,7 @@ import { IoSend } from 'react-icons/io5'
 
 const Form = () => {
   return (
-    <form action="" className='w-[70%] shadow-lg mt-5 p-10 border-2 border-theme-color border-opacity-60 rounded-md
+    <form action="" className='w-[70%] max-sm:w-full shadow-lg mt-5 p-10 border-2 border-theme-color border-opacity-60 rounded-md
     flex flex-col gap-3'>
         <div className='flex flex-col gap-1'>
             <label htmlFor="name" className='text-white-500 text-xl font-openSans'>Name</label>
@@ -20,7 +20,7 @@ const Form = () => {
         </div>
         <div className='w-full flex justify-end mt-2'>
           <Button background='bg-blue-300' color='text-chineseBlack'>
-            Let's Work <IoSend className='text-chineseBlack text-xl -rotate-45'/>
+            Let's connect <IoSend className='text-chineseBlack text-xl -rotate-45'/>
           </Button>
         </div>
     </form>
