@@ -5,10 +5,11 @@ import { FaLinkedinIn } from 'react-icons/fa'
 import { myPic } from '../assets/images'
 import Header from './Header'
 import URL from '../components/URL'
+import SkillList from '../components/SkillList'
 
 const Hero = () => {
   return (
-    <section className='bg-theme-color bg-opacity-70 w-full'>
+    <section className='bg-theme-color bg-opacity-70 w-full relative'>
       <div className=' bg-black bg-opacity-70'>
         <div className="w-full p-4">
           <Header />
@@ -40,6 +41,9 @@ const Hero = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div  className=' w-full absolute -bottom-10 z-50 flex justify-center'>
+          <SkillList />
         </div>
       </div>
     </section>
