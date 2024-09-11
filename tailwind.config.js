@@ -35,10 +35,29 @@ export default {
         'fade-slow': {
           '0%': {opacity: '0'},
           '100%': {opacity: '1'}
+        },
+        'appear': {
+          '0%': {opacity: '0', width: '0', height:'0', padding: '0'},
+          '100%': {opacity: '1', width: '50%', height:'max-content', padding: '1.25rem'}
+        },
+        'bigappear': {
+          '0%': {opacity: '0'},
+          '100%': {opacity: '1'}
+        },
+        'bigdisappear': {
+          '0%': {opacity: '1'},
+          '100%': {opacity: '0'}
+        },
+        'disappear': {
+          '0%': {opacity: '1', width: '50%', height:'max-content', padding: '1.25rem', display: 'block'},
+          '100%': {width: '0', height: '0', opacity: '0', padding: '0', display: 'none'}
         }
       },
       animation: {
         'fade-slow': 'fade-slow .5s linear 1',
+        'appear': 'appear 1s ease-in-out 1',
+        'bigappear': 'bigappear 1s ease-in-out 1',
+        'disappear': 'disappear .5s ease-in-out 1'
       },
     },
   },
