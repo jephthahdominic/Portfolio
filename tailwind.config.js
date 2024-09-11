@@ -56,7 +56,6 @@ export default {
       animation: {
         'fade-slow': 'fade-slow .5s linear 1',
         'appear': 'appear 1s ease-in-out 1',
-        'bigappear': 'bigappear 1s ease-in-out 1',
         'disappear': 'disappear .5s ease-in-out 1'
       },
     },
