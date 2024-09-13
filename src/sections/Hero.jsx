@@ -41,7 +41,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div  className=' w-full sm:absolute -bottom-12 z-50 flex justify-center'>
+        <div  className=' w-full sm:absolute -bottom-12 z-50 flex justify-center max-xl:px-4'>
           <SkillList />
         </div>
       </div>
