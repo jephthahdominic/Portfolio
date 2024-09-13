@@ -19,7 +19,7 @@ const Hero = () => {
           <div className=''>
             <h1 className='text-slate-gray text-2xl font-openSans'>Hi, I'm St-dominic Jephthah</h1>
             <h3 className='text-black sm:text-5xl font-openSans text-4xl'>Frontend developer</h3>
-            <p className='text-slate-gray leading-normal text-xl my-2'>I am thrilled to have you in my portfolio showcasing my creative journey and technical expertise as an enthusiastic Frontend developer. This collection of projects highlights my passion for software development.
+            <p className='text-slate-gray leading-normal text-xl max-sm:text-md my-2'>I am thrilled to have you in my portfolio showcasing my creative journey and technical expertise as an enthusiastic Frontend developer. This collection of projects highlights my passion for software development.
             Within these pages, you'll find a curated selection of my current projects. Each project tells a story of innovation, problem-solving, and dedication to delivering high-quality results.
             </p>
 
