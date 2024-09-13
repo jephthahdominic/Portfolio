@@ -12,13 +12,13 @@ function App() {
       <Hero/>
       <Portfolio />
       <ContactMe />
-      <div className="fixed bottom-5 right-5 bg-black bg-opacity-30 p-2 shadow-md z-50">
+      {/* <div className="fixed bottom-5 right-5 bg-black bg-opacity-30 p-2 shadow-md z-50">
         <a href="#" className="text-white-400 flex flex-col items-center gap-0">
           <IoIosArrowUp className="text-4xl text-white-400"/>
           <span className="text-xl">Scroll to top</span>
         </a>
-      </div>
-      <div className={`w-full h-screen fixed z-50 top-0 bg-white bg-opacity-40 padding flex items-center justify-center ${appear ? 'animate-bigappear':'animate-bigdisappear hidden'}`}>
+      </div> */}
+      <div className={`w-full fixed z-50 top-0 pt-4 flex items-center justify-center ${appear ? 'animate-fade-slow':'hidden'}`}>
         <Welcome appear={appear} setAppear={()=>setAppear()}/>
       </div>
     </div>
