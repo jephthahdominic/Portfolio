@@ -4,6 +4,7 @@ import myPic from "./myPic.png";
 import Hemsoft from "./Hemsoft.png"
 import Elech from "./Elech.png"
 import AIME from "./AIME.png"
+import ofriend from "./ofriend.png"
 
 export {
     Banner,
@@ -11,5 +12,6 @@ export {
     myPic,
     Hemsoft,
     Elech,
-    AIME
+    AIME,
+    ofriend
 }

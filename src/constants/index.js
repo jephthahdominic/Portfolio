@@ -1,4 +1,4 @@
-import { Elech, Hemsoft } from "../assets/images";
+import { Elech, Hemsoft, ofriend } from "../assets/images";
 
 export const projects = [
     {
@@ -14,6 +14,13 @@ export const projects = [
         img: Elech,
         url:"https://elechfootwears.vercel.app/",
         stack: "React JS, TailwindCSS"
+    },
+    {
+        title: "Waitlist for a startup", 
+        description:"A waitlist for an upcoming edtech company", 
+        img: ofriend,
+        url:"https://ofriendwaitlist.vercel.app/",
+        stack: "React JS, CSS3"
     },
     // {
     //     title: "Waitlist", 

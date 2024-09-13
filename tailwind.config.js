@@ -22,7 +22,10 @@ export default {
         "white-500":"rgba(255, 255, 255, 0.50)",
         "theme-color": "#363721",
         "eerie-black": "#1b1b1b",
-        "chineseBlack": "#141414"
+        "chineseBlack": "#141414",
+        "antiFlash": "#FFFFFF",
+        "paper": "#DBE9F4",
+        "slate-gray": "#6D6D6D",
       },
       backgroundImage:{
         "banner": "url(./assets/images/Banner2.jpg)"

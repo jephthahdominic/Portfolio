@@ -5,8 +5,8 @@ import { FaLinkedinIn } from 'react-icons/fa'
 
 const ContactMe = () => {
   return (
-    <section className='w-full bg-theme-color' id='contactMe'>
-      <div className='w-full h-full flex flex-col items-center xl:padding padding-y px-4 bg-black bg-opacity-40'>
+    <section className='w-full bg-chineseBlack' id='contactMe'>
+      <div className='w-full h-full flex flex-col items-center xl:padding padding-y px-4'>
         <h1 className='font-openSans text-3xl text-white-400 text-center'>HAVE AN <span className='border-b-blue-300 border-b-2'>IDEA?</span> 😏</h1>
         <Form />
         <div className='flex items-center gap-5 mt-10'>

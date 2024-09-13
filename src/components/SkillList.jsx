@@ -5,7 +5,7 @@ import { RiSeoFill, RiTailwindCssFill } from 'react-icons/ri'
 
 const SkillList = () => {
   return (
-    <ul className='max-w-full bg-eerie-black py-4 px-8 flex items-center xl-gap-8 gap-4 shadow-xl rounded-md'>
+    <ul className='max-w-full bg-eerie-black py-4 px-8 flex items-center xl:gap-18 gap-4 shadow-xl rounded-md'>
       <li>
         <FaHtml5 className="icon"/>
       </li>
