@@ -18,7 +18,7 @@ function App() {
           <span className="text-xl">Scroll to top</span>
         </a>
       </div> */}
-      <div className={`w-full fixed z-50 top-0 pt-4 flex items-center justify-center ${appear ? 'animate-fade-slow':'hidden'}`}>
+      <div className={`w-full fixed z-50 top-0 pt-4 flex items-center justify-center ${appear ? 'animate-fade-slow':'opacity-animate-disappear'}`}>
         <Welcome appear={appear} setAppear={()=>setAppear()}/>
       </div>
     </div>

@@ -44,8 +44,8 @@ export default {
           '100%': {opacity: '1', width: 'auto', height:'auto', padding: '1.25rem'}
         },
         'disappear': {
-          '0%': {opacity: '1', width: '50%', height:'max-content', padding: '1.25rem', display: 'block'},
-          '100%': {width: '0', height: '0', opacity: '0', padding: '0', display: 'none'}
+          '0%': {opacity: '1'},
+          '100%': {opacity: '0'}
         }
       },
       animation: {
